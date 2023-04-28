@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.sidebar nav {
+    padding: 5%;
+    text-align: center;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    padding-top: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+    color: white;
+    font-size: 24px;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+.main {
+    background-color: #fff;
+    margin-left: 15%;
+}
+
+.infoContainer {
+    margin-bottom: 100px;
+    margin: 87px auto;
+    background-color: white;
+    height: 65vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 40px;
+}
+
+.about {
+    font-size: 27px;
+}
+
+.moreabout {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 4%;
+    margin-bottom: 50%;
+}
+
+.buttons {
+    margin-top: 34px;
+    margin-bottom: 50%;
+}
+
+.socbtn{
+    margin-top: 30px;
+    margin-bottom: 40%;
+}
+
+.button {
+    padding: 5px 8px;
+    border-radius: 27px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 9px 4px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.bttns {
+    margin-top: 34px;
+    margin-bottom: 50%;
+}
+
+.btn {
+    padding: 9px 16px;
+    border-radius: 27px;
+    color: white;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -60px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.devpic img {
+    height: 55vh;
+    margin-top: -14%;
+}
+
+/* about me */
+.hi {
+    font-size: 43px;
+    text-align: center;
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+}
+
+.place {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+.devinfo p {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+@media (max-width: 1149px) {
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+}
+
+/* contact */
+
+.ContactForm form div {
+    padding: 17px 34px;
+    margin-left: -94%;
+}
+
+#emialHelp {
+    font-size: 8px;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.socials li {
+    margin-right: 10px;
+}
+
+.socials li:last-child {
+    margin-right: 0;
+}
+
+.socials a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.socials a:hover {
+    background-color: #111;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom span{
+    display: block;
+    font-size: 14px;
+    color: #111;
+    margin-top: 10px;
+}
